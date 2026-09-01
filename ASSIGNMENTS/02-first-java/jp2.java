@@ -1,0 +1,17 @@
+/* 2. Take name as input and print a greeting message for that particular name. */
+
+import java.util.*;
+class jp2{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter your name");
+        String name=sc.nextLine();
+        System.out.println("Good morning "+name);
+    }
+}
+
+/*
+Enter your name
+Aditya
+Good morning Aditya
+ */
